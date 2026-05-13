@@ -22,18 +22,36 @@
     <div class="content">
     <h2>Contact Us</h2>
 
-    <form action=""></form>
+    <form action="">
 
+    <label for="name">Name:</label><br>
     <input type="text" placeholder="Your Name" required><br><br>
+   
+    <label for="email">Email:</label><br>
     <input type="email" placeholder="Your Email" required><br><br>
+   
+    <label for="phone">Phone Number:</label><br>
     <input type="number" placeholder="Your Phone Number" required><br><br>
+   
+    <label for="password">Password:</label><br>
     <input type="password" placeholder="Your Password" required><br><br>
+   
+    <label for="time">Time:</label><br>
     <input type="time" placeholder="Your Time" required><br><br>
+   
+    <label for="date">Date:</label><br>
     <input type="date" placeholder="Your Date" required><br><br>
+   
+    <label for="color">Favorite Color:</label><br>
     <input type="color" placeholder="Your Favorite Color" required><br><br>
+   
+    <label for="range">Range:</label><br>
     <input type="range" placeholder="Your Range" required><br><br>
+    <label for="search">Search:</label><br>
     <input type="search" placeholder="Search..." required><br><br>
+    <label for="url">Website URL:</label><br>
     <input type="url" placeholder="Your Website URL" required><br><br>
+    <label for="file">Choose a File:</label><br>
     <input type="file" placeholder="Choose a File" accept=".pdf" multiple required><br><br>
     
     <input type="radio" name="ratings" value="1" required> 1 
@@ -42,8 +60,8 @@
     <input type="radio" name="ratings" value="4" required> 4
     <input type="radio" name="ratings" value="5" required> 5<br><br>
     
-    <input type="checkbox" name="subscribe" value="bbit"> Subscribe to BBIT newsletter<br><br>
-    <input type="checkbox" name="subscribe" value="bics"> Subscribe to BICS newsletter<br><br>
+    <input type="checkbox" name="subscribe_bbit" value="bbit"><label for="subscribe_bbit"> Subscribe to BBIT newsletter</label><br><br>
+    <input type="checkbox" name="subscribe_bics" value="bics"><label for="subscribe_bics"> Subscribe to BICS newsletter</label><br><br>
 
     <select name="country" required>
         <option value="">Select Your Country</option>
@@ -54,6 +72,8 @@
     </select><br><br>
 
     <textarea name="message" placeholder="Your Message" required></textarea><br><br>
+
+    <input type="submit" value="Update Message"><br><br>
     <button type="submit">Send Message</button><br><br>
 </form>
 
