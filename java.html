@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Demo</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        document.getElementById("demo").innerHTML = "Hello JavaScript!";
+    </script>
+    <br>
+    <img id="bulb" src="images/ChatGPT Image May 20, 2026, 09_08_53 AM.png" alt="Bulb" width="100" height="100">
+    <br>
+    <button type="button" onclick="document.getElementById('bulb').
+src='images/ChatGPT Image May 20, 2026, 09_08_25 AM.png'">Turn On</button>
+    <button type="button" onclick="document.getElementById('bulb').
+src='images/ChatGPT Image May 20, 2026, 09_08_53 AM.png'">Turn Off</button>
+<br>
+
+
+
+<script>
+    let x = 5;
+    let y = 10;
+    let z = x + y;
+    document.write("The sum is: " + z);
+
+    var fullName = "John Doe";
+    let age = 30;
+    document.write("<br>My name is: " + fullName + "<br>and I am " + age + " years old.");
+
+    let score = 85;
+    score += 10; // This is equivalent to score = score + 10
+    document.write("<br>My score is: " + score);
+
+    //Arrays
+    let fruits = ["Apple", "Banana", "Cherry"];
+    document.write("<br>My favorite fruits are: " + fruits);
+    fruits.join(", ");
+
+    //conditions
+    let food = prompt("Enter a food name:");
+
+    if (fruits.includes(food)) {
+        document.write("<br>" + food + " is in the list of fruits.");
+    } else {
+        document.write("<br>" + food + " is not in the list of fruits.");
+    }
+
+</script>
+
+
+   
+</body>
+</html>
